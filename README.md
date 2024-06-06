@@ -65,6 +65,28 @@ To use the web application:
 ![Laptop Image](images/so.png)
 
 ![Laptop Image](images/mo.png)
+
+# Try it Yourself
+## Example Laptop Images
+Example 1
+
+![Laptop 1](images/try1.png)
+
+*Predict Price of Example Laptop 1*
+
+Result of Example 1 
+
+![Laptop 1](images/pred1.png)
+
+
+Example 2
+![Laptop 2](images/try2.png)
+*Predict Price of Example Laptop 2*
+
+Result of Example 2
+
+![Laptop 1](images/pred2.png)
+
 ### Social Media
 - [LinkedIn](https://www.linkedin.com/in/sahil-tiwari-b2269b27a/)
 - [GitHub](https://github.com/sahilTiwariiii)
