@@ -1,4 +1,4 @@
-# Laptop Price Prediction
+# 💻 Laptop Price Prediction
 
 ## Overview
 This project aims to predict the price of laptops based on various features such as Company, TypeName, Ram, Weight, Touchscreen, Ips, ppi, Cpu brand, HDD, SSD, Gpu brand, and operating system (OS). The prediction model has been implemented as a web application using Streamlit, allowing users to interactively input laptop specifications and receive a predicted price.
@@ -57,6 +57,56 @@ To use the web application:
 2. Run the Streamlit app: `streamlit run app.py`
 3. Access the web application via the provided URL and input the desired laptop specifications to obtain the predicted price.
 ![Laptop Image](images/Contact.png)
+
+
+
+
+## 🗂️ Data Description
+
+### Raw Data
+
+The initial dataset consists of various features that describe different aspects of laptops. The dataset contains the following columns:
+
+- **Company**: Brand of the laptop
+- **TypeName**: Type or category of the laptop (e.g., Ultrabook, Gaming, Notebook)
+- **Inches**: Size of the laptop screen in inches
+- **ScreenResolution**: Resolution of the laptop screen
+- **Cpu**: Specifications of the CPU
+- **Ram**: Amount of RAM in the laptop
+- **Memory**: Storage capacity and type
+- **Gpu**: Specifications of the GPU
+- **OpSys**: Operating system installed on the laptop
+- **Weight**: Weight of the laptop
+- **Price**: Price of the laptop (dependent variable)
+
+### Data Cleaning and Feature Engineering
+
+After performing data cleaning and feature engineering, the final dataset was prepared for model training. The cleaned and processed dataset includes the following features:
+
+- **Company**: Brand of the laptop
+- **TypeName**: Type or category of the laptop
+- **Ram**: Amount of RAM in the laptop
+- **Weight**: Weight of the laptop
+- **Touchscreen**: Whether the laptop has a touchscreen (binary)
+- **Ips**: Whether the laptop has an IPS display (binary)
+- **ppi**: Pixel density of the screen (pixels per inch)
+- **Cpu brand**: Brand of the CPU
+- **HDD**: Hard disk drive capacity
+- **SSD**: Solid-state drive capacity
+- **Gpu brand**: Brand of the GPU
+- **os**: Operating system installed on the laptop
+
+### Example of Final Data
+
+Here’s a snapshot of the final dataset:
+
+| Company | TypeName | Ram | Weight | Touchscreen | Ips | ppi  | Cpu brand | HDD  | SSD  | Gpu brand | os    |
+|---------|----------|-----|--------|-------------|-----|------|-----------|------|------|-----------|-------|
+| Dell    | Ultrabook| 8GB | 1.2kg  | Yes         | Yes | 226  | Intel     | 0GB  | 256GB| Intel     | Windows|
+| HP      | Notebook | 4GB | 2.0kg  | No          | No  | 141  | AMD       | 500GB| 0GB  | Nvidia    | Linux  |
+| ...     | ...      | ... | ...    | ...         | ... | ...  | ...       | ...  | ...  | ...       | ...   |
+
+
 ## Contact Information
 - **Name**: Sahil Tiwari
 - **Email**: sahiltiwari1222@gmail.com
